@@ -1,0 +1,10 @@
+Student no 1
+Roll number: 1
+Name: ahete
+Marks: 99
+-----------------------
+Student no 2
+Roll number: 2
+Name: aadil
+Marks: 98
+-----------------------

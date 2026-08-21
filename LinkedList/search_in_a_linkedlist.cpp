@@ -45,7 +45,7 @@ int searchLl(Node* head , int val){
 int main(){
     vector<int> arr = {1,23,4,6,8,9};
     Node * head = convertToLinkedList(arr);
-    cout<<searchLl(head , 2);
+    cout<<searchLl(head , 23);
     
     return 0;
 }
