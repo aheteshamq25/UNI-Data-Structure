@@ -35,13 +35,18 @@ void pop() {
     }else{
         abc* s = top;
         top = top->next;
+        cout<<"Deleting Element from the stack!!"<<endl;
         delete(s);
     }
    
 }
 void display() {
     ptr = top;
-    cout<<"\n---Displaying Stack---"<<endl;
+    if(ptr == NULL){
+        cout<<"\nStack is empty!!"<<endl;
+    }else{
+        cout<<"\n---Displaying Stack---"<<endl;
+    }
     while(ptr!= NULL){
         cout<<ptr->a<<" ";
         ptr = ptr->next;

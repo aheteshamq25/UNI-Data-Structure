@@ -30,7 +30,7 @@ void pop(int arr[], int &top)
         top--;
     }
 }
-void display(int arr[], int top)
+void display(int arr[], int &top)
 {
     for (int i = top; i>0; i--)
     {
